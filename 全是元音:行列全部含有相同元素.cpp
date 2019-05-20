@@ -1,10 +1,10 @@
-//¹Ø¼ü´úÂëÊÇmainº¯ÊýÀïÃæµÄË«for
-//Ô­À´µÄÄ¸´®ÊÇÒ»¸ö²»±äµÄÊý×é£¬
-//½ö¿ÉÒÔÈÃÃ¿ÐÐ´æÔÚÒ»¸öaeiou
-//µ«ÊÇÒòÎªË«forÑ­»·ÐÐÊýºÍÁÐÊý£¬
-//Ê¹µÃÃ¿ÐÐµÄ×Ö·ûÆðµã¶¼²»Ò»Ñù
-//Ò²¾Í±äÏàµÄÈÃÃ¿ÁÐ¶¼ÓÐ²»Ò»ÑùµÄÔªÒô
-//×îÖÕÊ¹µÃËùÓÐÐÐÁÐ¶¼ÖÁÉÙÓÐÒ»¸öaeiou
+//å…³é”®ä»£ç æ˜¯mainå‡½æ•°é‡Œé¢çš„åŒfor
+//åŽŸæ¥çš„æ¯ä¸²æ˜¯ä¸€ä¸ªä¸å˜çš„æ•°ç»„ï¼Œ
+//ä»…å¯ä»¥è®©æ¯è¡Œå­˜åœ¨ä¸€ä¸ªaeiou
+//ä½†æ˜¯å› ä¸ºåŒforå¾ªçŽ¯è¡Œæ•°å’Œåˆ—æ•°ï¼Œ
+//ä½¿å¾—æ¯è¡Œçš„å­—ç¬¦èµ·ç‚¹éƒ½ä¸ä¸€æ ·
+//ä¹Ÿå°±å˜ç›¸çš„è®©æ¯åˆ—éƒ½æœ‰ä¸ä¸€æ ·çš„å…ƒéŸ³
+//æœ€ç»ˆä½¿å¾—æ‰€æœ‰è¡Œåˆ—éƒ½è‡³å°‘æœ‰ä¸€ä¸ªaeiou
 
 #include<iostream>
 #include<string>
@@ -13,17 +13,17 @@ using namespace std;
 int check(int n){
     for(int i=5;i<=n;i++){
         if(n%i==0&&n/i>=5) return i;
-    }//Êä³öµÄiÊÇÐÐÊý
+    }//è¾“å‡ºçš„iæ˜¯è¡Œæ•°
     return 0;
 }
 
 int main(){
     int a;
     cin>>a;
-    int t=check(a);//ÕâÀïµÄtÊÇÐÐÊý
+    int t=check(a);//è¿™é‡Œçš„tæ˜¯è¡Œæ•°
     if(t==0) cout<<-1<<endl;
     else{
-        string ma="aeiou";//Ä¸´®
+        string ma="aeiou";//æ¯ä¸²
         string ans="";
         for(int i=1;i<=a/t;i++){
             //string ans="";
