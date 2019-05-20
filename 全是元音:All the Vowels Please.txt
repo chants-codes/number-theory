@@ -2,7 +2,7 @@ Tom loves vowels, and he likes long words with many vowels. His favorite words a
 You are given an integer k and you must either print a vowelly word of length k or print ?1 if no such word exists.
 In this problem the vowels of the English alphabet are 'a', 'e', 'i', 'o' ,'u'.
 Input
-Input consists of a single line containing the integer k(1¡Ük¡Ü10^4) ¡ª the required length.
+Input consists of a single line containing the integer k(1â‰¤kâ‰¤10^4) â€” the required length.
 Output
 The output must consist of a single line, consisting of a vowelly word of length k consisting of lowercase English letters if it exists or ?1 if it does not.
 If there are multiple possible words, you may output any of them.
@@ -16,4 +16,4 @@ Input
 Output
 agoeuioaeiruuimaeoieauoweouoiaouimae
 
-//¼ò¶øÑÔÖ®£¬¾ÍÊÇÅĞ¶ÏËù¸øÊı×Ö¿É²»¿ÉÒÔ¹¹³ÉÒ»¸ö¾ØÕó£¬Ê¹µÃÃ¿Ò»ĞĞÃ¿Ò»ÁĞ¶¼ÖÁÉÙÓĞÒ»¸öaeiou¡£
+//ç®€è€Œè¨€ä¹‹ï¼Œå°±æ˜¯åˆ¤æ–­æ‰€ç»™æ•°å­—å¯ä¸å¯ä»¥æ„æˆä¸€ä¸ªçŸ©é˜µï¼Œä½¿å¾—æ¯ä¸€è¡Œæ¯ä¸€åˆ—éƒ½è‡³å°‘æœ‰ä¸€ä¸ªaeiouã€‚
